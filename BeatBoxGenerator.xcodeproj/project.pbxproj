@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF53797270F9BA300AAF5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53796270F9BA300AAF5FE /* AppDelegate.swift */; };
+		6FF53799270F9BA300AAF5FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53798270F9BA300AAF5FE /* SceneDelegate.swift */; };
+		6FF5379B270F9BA300AAF5FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5379A270F9BA300AAF5FE /* ViewController.swift */; };
+		6FF5379E270F9BA300AAF5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5379C270F9BA300AAF5FE /* Main.storyboard */; };
+		6FF537A0270F9BA900AAF5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF5379F270F9BA900AAF5FE /* Assets.xcassets */; };
+		6FF537A3270F9BA900AAF5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF537A1270F9BA900AAF5FE /* LaunchScreen.storyboard */; };
+		6FF537AE270F9BA900AAF5FE /* BeatBoxGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF537AD270F9BA900AAF5FE /* BeatBoxGeneratorTests.swift */; };
+		6FF537B9270F9BA900AAF5FE /* BeatBoxGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF537B8270F9BA900AAF5FE /* BeatBoxGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FF537AA270F9BA900AAF5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF5378B270F9BA300AAF5FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF53792270F9BA300AAF5FE;
+			remoteInfo = BeatBoxGenerator;
+		};
+		6FF537B5270F9BA900AAF5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF5378B270F9BA300AAF5FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF53792270F9BA300AAF5FE;
+			remoteInfo = BeatBoxGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FF53793270F9BA300AAF5FE /* BeatBoxGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatBoxGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF53796270F9BA300AAF5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF53798270F9BA300AAF5FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FF5379A270F9BA300AAF5FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FF5379D270F9BA300AAF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF5379F270F9BA900AAF5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF537A2270F9BA900AAF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF537A4270F9BA900AAF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF537A9270F9BA900AAF5FE /* BeatBoxGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatBoxGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF537AD270F9BA900AAF5FE /* BeatBoxGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBoxGeneratorTests.swift; sourceTree = "<group>"; };
+		6FF537AF270F9BA900AAF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF537B4270F9BA900AAF5FE /* BeatBoxGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatBoxGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF537B8270F9BA900AAF5FE /* BeatBoxGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatBoxGeneratorUITests.swift; sourceTree = "<group>"; };
+		6FF537BA270F9BA900AAF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF53790270F9BA300AAF5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537A6270F9BA900AAF5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537B1270F9BA900AAF5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF5378A270F9BA300AAF5FE = {
+			isa = PBXGroup;
+			children = (
+				6FF53795270F9BA300AAF5FE /* BeatBoxGenerator */,
+				6FF537AC270F9BA900AAF5FE /* BeatBoxGeneratorTests */,
+				6FF537B7270F9BA900AAF5FE /* BeatBoxGeneratorUITests */,
+				6FF53794270F9BA300AAF5FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF53794270F9BA300AAF5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF53793270F9BA300AAF5FE /* BeatBoxGenerator.app */,
+				6FF537A9270F9BA900AAF5FE /* BeatBoxGeneratorTests.xctest */,
+				6FF537B4270F9BA900AAF5FE /* BeatBoxGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF53795270F9BA300AAF5FE /* BeatBoxGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				6FF53796270F9BA300AAF5FE /* AppDelegate.swift */,
+				6FF53798270F9BA300AAF5FE /* SceneDelegate.swift */,
+				6FF5379A270F9BA300AAF5FE /* ViewController.swift */,
+				6FF5379C270F9BA300AAF5FE /* Main.storyboard */,
+				6FF5379F270F9BA900AAF5FE /* Assets.xcassets */,
+				6FF537A1270F9BA900AAF5FE /* LaunchScreen.storyboard */,
+				6FF537A4270F9BA900AAF5FE /* Info.plist */,
+			);
+			path = BeatBoxGenerator;
+			sourceTree = "<group>";
+		};
+		6FF537AC270F9BA900AAF5FE /* BeatBoxGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FF537AD270F9BA900AAF5FE /* BeatBoxGeneratorTests.swift */,
+				6FF537AF270F9BA900AAF5FE /* Info.plist */,
+			);
+			path = BeatBoxGeneratorTests;
+			sourceTree = "<group>";
+		};
+		6FF537B7270F9BA900AAF5FE /* BeatBoxGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FF537B8270F9BA900AAF5FE /* BeatBoxGeneratorUITests.swift */,
+				6FF537BA270F9BA900AAF5FE /* Info.plist */,
+			);
+			path = BeatBoxGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF53792270F9BA300AAF5FE /* BeatBoxGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF537BD270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGenerator" */;
+			buildPhases = (
+				6FF5378F270F9BA300AAF5FE /* Sources */,
+				6FF53790270F9BA300AAF5FE /* Frameworks */,
+				6FF53791270F9BA300AAF5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatBoxGenerator;
+			productName = BeatBoxGenerator;
+			productReference = 6FF53793270F9BA300AAF5FE /* BeatBoxGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FF537A8270F9BA900AAF5FE /* BeatBoxGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF537C0270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGeneratorTests" */;
+			buildPhases = (
+				6FF537A5270F9BA900AAF5FE /* Sources */,
+				6FF537A6270F9BA900AAF5FE /* Frameworks */,
+				6FF537A7270F9BA900AAF5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF537AB270F9BA900AAF5FE /* PBXTargetDependency */,
+			);
+			name = BeatBoxGeneratorTests;
+			productName = BeatBoxGeneratorTests;
+			productReference = 6FF537A9270F9BA900AAF5FE /* BeatBoxGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FF537B3270F9BA900AAF5FE /* BeatBoxGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF537C3270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGeneratorUITests" */;
+			buildPhases = (
+				6FF537B0270F9BA900AAF5FE /* Sources */,
+				6FF537B1270F9BA900AAF5FE /* Frameworks */,
+				6FF537B2270F9BA900AAF5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF537B6270F9BA900AAF5FE /* PBXTargetDependency */,
+			);
+			name = BeatBoxGeneratorUITests;
+			productName = BeatBoxGeneratorUITests;
+			productReference = 6FF537B4270F9BA900AAF5FE /* BeatBoxGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF5378B270F9BA300AAF5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6FF53792270F9BA300AAF5FE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6FF537A8270F9BA900AAF5FE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6FF53792270F9BA300AAF5FE;
+					};
+					6FF537B3270F9BA900AAF5FE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6FF53792270F9BA300AAF5FE;
+					};
+				};
+			};
+			buildConfigurationList = 6FF5378E270F9BA300AAF5FE /* Build configuration list for PBXProject "BeatBoxGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF5378A270F9BA300AAF5FE;
+			productRefGroup = 6FF53794270F9BA300AAF5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF53792270F9BA300AAF5FE /* BeatBoxGenerator */,
+				6FF537A8270F9BA900AAF5FE /* BeatBoxGeneratorTests */,
+				6FF537B3270F9BA900AAF5FE /* BeatBoxGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF53791270F9BA300AAF5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF537A3270F9BA900AAF5FE /* LaunchScreen.storyboard in Resources */,
+				6FF537A0270F9BA900AAF5FE /* Assets.xcassets in Resources */,
+				6FF5379E270F9BA300AAF5FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537A7270F9BA900AAF5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537B2270F9BA900AAF5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF5378F270F9BA300AAF5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF5379B270F9BA300AAF5FE /* ViewController.swift in Sources */,
+				6FF53797270F9BA300AAF5FE /* AppDelegate.swift in Sources */,
+				6FF53799270F9BA300AAF5FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537A5270F9BA900AAF5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF537AE270F9BA900AAF5FE /* BeatBoxGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF537B0270F9BA900AAF5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF537B9270F9BA900AAF5FE /* BeatBoxGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FF537AB270F9BA900AAF5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF53792270F9BA300AAF5FE /* BeatBoxGenerator */;
+			targetProxy = 6FF537AA270F9BA900AAF5FE /* PBXContainerItemProxy */;
+		};
+		6FF537B6270F9BA900AAF5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF53792270F9BA300AAF5FE /* BeatBoxGenerator */;
+			targetProxy = 6FF537B5270F9BA900AAF5FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FF5379C270F9BA300AAF5FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF5379D270F9BA300AAF5FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF537A1270F9BA900AAF5FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF537A2270F9BA900AAF5FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF537BB270F9BA900AAF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FF537BC270F9BA900AAF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF537BE270F9BA900AAF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF537BF270F9BA900AAF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FF537C1270F9BA900AAF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatBoxGenerator.app/BeatBoxGenerator";
+			};
+			name = Debug;
+		};
+		6FF537C2270F9BA900AAF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGeneratorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatBoxGenerator.app/BeatBoxGenerator";
+			};
+			name = Release;
+		};
+		6FF537C4270F9BA900AAF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatBoxGenerator;
+			};
+			name = Debug;
+		};
+		6FF537C5270F9BA900AAF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6LA4PBYPA;
+				INFOPLIST_FILE = BeatBoxGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "origin-app.BeatBoxGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatBoxGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF5378E270F9BA300AAF5FE /* Build configuration list for PBXProject "BeatBoxGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF537BB270F9BA900AAF5FE /* Debug */,
+				6FF537BC270F9BA900AAF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF537BD270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF537BE270F9BA900AAF5FE /* Debug */,
+				6FF537BF270F9BA900AAF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF537C0270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF537C1270F9BA900AAF5FE /* Debug */,
+				6FF537C2270F9BA900AAF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF537C3270F9BA900AAF5FE /* Build configuration list for PBXNativeTarget "BeatBoxGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF537C4270F9BA900AAF5FE /* Debug */,
+				6FF537C5270F9BA900AAF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF5378B270F9BA300AAF5FE /* Project object */;
+}
